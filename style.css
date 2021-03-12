@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 250px);
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 35px;
+    margin: 0 125px;
+}
+
+.pc-choose {
+    font-family: 'Montserrat';
+}
+
+.buttons button {
+    font-size: 25px;
+    margin: 15px;
+    background-color: white;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#status-indicator {
+    font-family: 'Montserrat';
+}
